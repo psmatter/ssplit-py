@@ -1,0 +1,12 @@
+Makefile
+README.txt
+setup.py
+test.py
+./test.py
+lib/__init__.py
+lib/splitter.so
+include src/*.h
+include src/*.cpp
+include obj/
+include docs/*
+include prefixes/*
