@@ -6,7 +6,7 @@ Written in c++, the module is meant for python3.9 with linux (Debian Bullseye).
 
 ### Introduction
 
-I found the ssplit-cpp utility from [ugermann@github.com][https://github.com/ugermann/ssplit-cpp] to work quite well for splitting text into sentences. All in all the task is less trivial then one might think and from flexibility, language support, ressources and speed ssplit performs great.
+I found the ssplit-cpp utility from [ugermann\@github.com][https://github.com/ugermann/ssplit-cpp] to work quite well for splitting text into sentences. All in all the task is less trivial then one might think and from flexibility, language support, ressources and speed ssplit performs great.
 
 In one way or another, the NLP tools have some trainable approaches to split text insto sentences but handling, speed and ressource needs are a handicap. 
 
@@ -25,7 +25,7 @@ splittedList = split("en",text_to_split)
 
 See doc directory for further information. 
 
-For productive, large scale text processing purposes I'd suggest to use the original tool from ugerman@github.com. This module is meant more for splitting smaller text portions. 
+For productive, large scale text processing purposes I'd suggest to use the original tool from ugerman\@github.com. This module is meant more for splitting smaller text portions. 
 
 ### Prerequisites
 
@@ -39,7 +39,7 @@ Provide a place for the language prefix files. (default: /usr/local/share/ssplit
 
 ### Build and Installation
 
-Build the project. A Makefile is provided. Use `make pymodule` or  ` python3 setup.py build` to see if the module gets compiled. If so (check with `python3 test.py`) run `python3 setup.py install` to install the module globally. Now `import splitter? should work outside the project directory. 
+Build the project. A Makefile is provided. Use `make pymodule` or  ` python3 setup.py build` to see if the module gets compiled. If so (check with `python3 test.py`) run `python3 setup.py install` to install the module globally. Now `import splitter` should work outside the project directory. 
 
 See the docs directory for further information. 
 
@@ -49,7 +49,7 @@ My first approach was to make the ssplit part separate from the module as shared
 
 So the build is done with coreutils. In setup.py a factorial is provided, so the project does not depend from the Makefile. As this is my first python module, I am sure there still is potential for improvement. 
 
-An issue with coreutils is the install Path. As installed from the debian maintenance, the modules are installed in the site-packages directory. This may differ on other installations. (I guess the current place to be is /usr/local/lib~/dist.packages). Check setup.py for Install_Dir. 
+An issue with coreutils is the install Path. As installed from the debian maintenance, the modules are installed in the site-packages directory. This may differ on other installations. (I guess the current place to be is /usr/local/lib~/dist-packages). Check setup.py for Install_Dir. 
 
 
 If there are issues, issue them. I will see what I can do to fix them. 
@@ -59,14 +59,15 @@ Make sure the text fed into the splitter is UTF8 or ASCII only.
 
 ### Credits
 
-Credits go to ugerman@github.com for the ssplit part, which is the basis of the library, moses-smt@github.com for the prefixes and many other internet sources, providing hints and howto's for c++ issues and python integration. 
+Credits go to ugerman\@github.com for the ssplit part, which is the basis of the library, moses-smt\@github.com for the prefixes and many other internet sources, providing hints and howto's for c++ issues and python integration. 
 
 ### License
 
 Apache License 
 
-   Copyright 2023 psmatter@github.com 
-   ...
+   Copyright 2023 psmatter\@github.com 
+
+
    Copyright 2019 University of Edinburgh
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -80,9 +81,9 @@ Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-   ...
 
-   LGPL2 for the prefixes. (moses-smt@github.com)
+
+   LGPL2 for the prefixes. \(moses-smt\@github.com\)
    The prefixes are not part of the library, they can be replaced by
    custom made ones if the license is an issue for your use case.
 
