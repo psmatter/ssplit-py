@@ -6,7 +6,7 @@ Written in c++, the module is meant for python3.9 with linux (Debian Bullseye).
 
 ### Introduction
 
-I found the ssplit-cpp utility from ugermann@github.com to work quite well for splitting text into sentences. All in all the task is less trivial then one might think and from flexibility, language support, ressources and speed ssplit performs great.
+I found the ssplit-cpp utility from [ugermann@github.com][https://github.com/ugermann/ssplit-cpp] to work quite well for splitting text into sentences. All in all the task is less trivial then one might think and from flexibility, language support, ressources and speed ssplit performs great.
 
 In one way or another, the NLP tools have some trainable approaches to split text insto sentences but handling, speed and ressource needs are a handicap. 
 
