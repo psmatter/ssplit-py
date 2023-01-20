@@ -1,8 +1,8 @@
-##C++ SentenceSplitter library with Python interface
+## C++ SentenceSplitter library with Python interface
 
-###A lightwight utility for c++ and python to process text into sentences.
+### A lightwight utility for c++ and python to process text into sentences.
 
-###Python API
+### Python API
 
 The default usecase for the module is simple, just import it, drop in some text and get a python list with the sentences, terminated by "\n".
 
