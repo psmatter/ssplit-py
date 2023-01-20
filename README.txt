@@ -1,6 +1,6 @@
-##C++ SentenceSplitter library with Python interface
+## C++ SentenceSplitter library with Python interface
 
-###A lightwight utility for c++ and python to process text into sentences.
+### A lightwight utility for c++ and python to process text into sentences.
 
 README.txt for the old distutil distribution:
 
