@@ -8,8 +8,9 @@ The default usecase for the module is simple, just import it, drop in some text 
 
 splitter(language, text)
 
-language: Country code (prefices in default location)
-          or path of the preix file. 
+language: Country code (prefixes in default location)
+          or path of the prefix file. 
+
           Default: language en (with argument None)
 
 text    : Ascii/UTF-8 text string. Larger texts should be 
