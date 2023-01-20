@@ -18,7 +18,7 @@ The original tool is commandline only, I wanted to have it in python. So I decid
 From the python side: 
 
 ```python
-from splitter import splitter as split
+import splitter as split
 
 splittedList = split("en",text_to_split)
 ```
