@@ -21,6 +21,6 @@ INCLUDE_PATH = $(SRCDIR)/ -I/usr/include/python3.6/
 LIBS = -lpcre2-8 -lpython3.6m -lstdc++fs
 ```
 
-Now ```python3 setup.py build``` and ```python3 setup install```
+Now ```python3 setup.py build``` and ```python3 setup.py install``` should work.
 
 
