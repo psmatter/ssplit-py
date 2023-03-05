@@ -29,7 +29,7 @@ For productive, large scale text processing purposes I'd suggest to use the orig
 
 ### Prerequisites
 
-The module is compiled with the vanilla g++, coming with Debian Bullsyes. To compile ist, libpcre2-8 and the python dev kit is needed:
+The module is compiled with the vanilla g++, coming with Debian Bullsyes. To compile it, libpcre2-8 and the python dev kit is needed:
 
 `apt-get install libpcre2-dev` 
 `apt-get install python3-dev`
