@@ -32,7 +32,7 @@ For productive, large scale text processing purposes I'd suggest to use the orig
 The module is compiled with the vanilla g++, coming with Debian Bullsyes. To compile ist, libpcre2-8 and the python dev kit is needed:
 
 `apt-get install libpcre2-dev` 
-`api-get install python3-dev`
+`apt-get install python3-dev`
 
 Provide a place for the language prefix files. (default: /usr/local/share/ssplit) and set the `#define PREFIX_DIR` in `src/ssplit.h` accordingly. Copy the files from prefixes directory to that location. 
 
@@ -47,9 +47,9 @@ See the docs directory for further information.
 
 My first approach was to make the ssplit part separate from the module as shared library. When I started with the pythonic setup, I found it quite tiresome and time consuming, to design the build and installation as I desired it to be. Also I didnt want to use more tools than necessary.  
 
-So the build is done with coreutils. In setup.py a factorial is provided, so the project does not depend from the Makefile. As this is my first python module, I am sure there still is potential for improvement. 
+So the build is done with coreutils. In setup.py a factorial is provided, so the project does not depend on the Makefile. As this is my first python module, I am sure there still is potential for improvement. 
 
-An issue with coreutils is the install Path. As installed from the debian maintenance, the modules are installed in the site-packages directory. This may differ on other installations. (I guess the current place to be is /usr/local/lib~/dist-packages). Check setup.py for Install_Dir. 
+An issue with coreutils is the install path. As installed from the debian maintenance, the modules are installed in the site-packages directory. This may differ for other installations. (I guess the current place to be is /usr/local/lib~/dist-packages). Check setup.py for Install_Dir. 
 
 
 If there are issues, issue them. I will see what I can do to fix them. 

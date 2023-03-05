@@ -5,7 +5,7 @@ print("Test input to splitter:",text)
 
 t_list = splitter.splitter("en",text)
 
-print("Python got ",len(t_list)," lines back, splittet as:")
+print("Python got ",len(t_list)," lines back, split as:")
 
 
 for i in range(len(t_list)):
