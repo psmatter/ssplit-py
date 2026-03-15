@@ -6,7 +6,9 @@ APISRC = src/ssplit_py_api.cpp
 APIOBJ = obj/ssplit_py_api.o
 
 # The path to the header file. 
-INCLUDE_PATH = $(SRCDIR)/ -I/usr/include/python3.9/
+# Include path for Python headers
+PYTHON_INCLUDES := $(shell python3-config --includes)
+INCLUDE_PATH = $(SRCDIR)/ $(PYTHON_INCLUDES)
 
 # The library sources 
 SRC = regex.cpp ssplit.cpp 
@@ -34,7 +36,7 @@ EX = -Wl,-rpath,$(LIBDIR)/ -pthread
 
 
 # The library flags to link against the Splitter library.
-LIBS = -lpcre2-8 -lpython3.9 
+LIBS = -lpcre2-8 $(shell python3-config --libs)
 
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.cpp $(SRCDIR)/%.h   
